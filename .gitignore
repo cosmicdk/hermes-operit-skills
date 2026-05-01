@@ -1,0 +1,23 @@
+# Operit skill local data — should not be versioned
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Operit runtime
+packageLogs/
+debug_msg_dump/
+tmp/
+
+# Keep reference directories
+!hermes-*/references/
+!hermes-*/references/.gitkeep
